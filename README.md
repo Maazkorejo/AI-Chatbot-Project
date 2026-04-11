@@ -1,7 +1,7 @@
 # 🤖 AI Chatbot using Streamlit + Hugging Face
 
-A simple and intelligent AI chatbot built using **Streamlit** and the **Hugging Face Inference API**.
-This project demonstrates how modern AI models can be integrated into a clean web-based interface using Python.
+This project is a simple web-based AI chatbot built using **Python**, **Streamlit**, and the **Hugging Face Inference API**.
+It demonstrates how modern Large Language Models (LLMs) can be integrated into a clean and interactive web interface.
 
 ---
 
@@ -9,9 +9,9 @@ This project demonstrates how modern AI models can be integrated into a clean we
 
 * 💬 Interactive chatbot interface
 * 🧠 Hugging Face AI model integration
-* 🌐 Web-based UI using Streamlit
-* ⚡ Fast and lightweight application
-* 🔐 Secure API token support via environment variables
+* 🌐 Streamlit-based web UI
+* 🔐 Secure API token handling using environment variables
+* ⚡ Lightweight and fast responses
 
 ---
 
@@ -28,44 +28,72 @@ This project demonstrates how modern AI models can be integrated into a clean we
 
 ### Chat Interface
 
-![Chat UI](screenshots/Chat_UI.png)
+![Chat UI](screenshots/ui.png)
 
 ---
 
-## 📦 Installation Guide
+## 📂 Project Structure
+
+```
+AI-Chatbot-Project
+│
+├── app.py
+├── README.md
+├── .gitignore
+└── screenshots
+    └── ui.png
+```
+
+---
+
+## 📦 Installation
 
 Clone the repository:
 
+```
 git clone https://github.com/Maazkorejo/AI-Chatbot-Project.git
+```
 
-Move into the project folder:
+Move into the project directory:
 
+```
 cd AI-Chatbot-Project
+```
 
-Install dependencies:
+Install required dependencies:
 
+```
 pip install streamlit requests
+```
 
 ---
 
-## 🔑 Set Hugging Face Token (Windows PowerShell)
+## 🔑 Environment Setup (Windows PowerShell)
 
+Set your Hugging Face API token:
+
+```
 $env:HF_TOKEN="your_huggingface_token_here"
+```
 
 ---
 
 ## ▶️ Run the Application
 
+Start the chatbot locally:
+
+```
 python -m streamlit run app.py
+```
 
 ---
 
 ## 💡 Future Improvements
 
-* Add chat memory/history
-* Improve chatbot UI styling
+* Add chatbot memory/history
+* Improve UI styling
 * Support multiple AI models
-* Deploy online using Streamlit Cloud
+* Deploy chatbot online (Streamlit Cloud)
 
 ---
 

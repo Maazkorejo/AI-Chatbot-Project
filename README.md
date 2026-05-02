@@ -2,7 +2,7 @@
 
 This project is a simple web-based AI chatbot built using **Python**, **Streamlit**, and the **Hugging Face Inference API**.
 It demonstrates how modern Large Language Models (LLMs) can be integrated into a clean and interactive web interface.
-
+https://ai-chatbot-project-2mcavhmwkqwsx5qka8vsxn.streamlit.app/
 ---
 
 ## 🚀 Features
